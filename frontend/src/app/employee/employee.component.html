@@ -1,0 +1,8 @@
+<mat-card>
+  <h2>Employee Information:</h2>
+  <h3>Name: {{employee.firstName}} {{employee.lastName}}</h3>
+  <h3>Employee ID: {{employee.id}}</h3>
+  <h4>Title: {{employee.title}}</h4>
+  <h4>Location: {{employee.address.state}}</h4>
+  <button (click)="goToDashboard()">Return to Company</button>
+</mat-card>
