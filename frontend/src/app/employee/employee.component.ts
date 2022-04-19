@@ -22,7 +22,7 @@ export class EmployeeComponent implements OnInit {
   constructor(private router: Router, private route: ActivatedRoute) {
   }
     goToDashboard() {
-      this.router.navigate(["/company"])
+      this.router.navigate([""])
    }
 
   ngOnInit() {

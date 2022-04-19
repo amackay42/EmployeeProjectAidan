@@ -21,7 +21,7 @@ export class CustomerComponent implements OnInit {
 
   }
     goToDashboard() {
-      this.router.navigate(["/company"])
+      this.router.navigate([""])
    }
 
   ngOnInit() {

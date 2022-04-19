@@ -4,7 +4,7 @@ import { CompanyComponent } from './company/company.component';
 import { CustomerComponent } from './customer/customer.component';
 import { EmployeeComponent} from './employee/employee.component';
 const routes: Routes = [
-  { path: 'company', component: CompanyComponent},
+  { path: '', component: CompanyComponent},
   { path: 'employee/:id', component: EmployeeComponent},
   { path: 'customer/:id', component: CustomerComponent}
 
